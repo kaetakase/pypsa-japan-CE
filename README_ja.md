@@ -35,7 +35,7 @@ python scripts/compare_re_run.py REI-CO2 --time-mode rep4
 
 - 6ケースのシステムコスト、CO₂原単位、CO₂シャドウプライス、表7、表8の主要数値は元の結果CSVと整合。
 - 代表週4・8・10週の年間システムコストは10.1、9.5、9.7兆円/年（論文図3の丸め値と整合）。
-- 図4作図用のTWh表は元の8760時間結果よりほぼ25/24倍大きい。元の数値は `reference_results/corrected_generation_TWh.csv`、差分は `reference_results/figure4_correction_check.csv` を参照。
+- 図4の発電電力量構成比（％）については、8760時間計算の元データとの整合性を確認済み。発電電力量の参照データは `reference_results/corrected_generation_TWh.csv` に収録している。過去の作図用データとの照合結果は `reference_results/figure4_correction_check.csv` に記録している。
 - 元結果ファイルの一部の `SCENARIO_NAME` にWG/REIの表示違いがあるため、GitHub公開用の新しい実行ではラッパーが適切なケース名を付与します。
 - 元結果とPython・入力からの完全な再計算一致は、PyPSA・HiGHS実行環境で6ケースと代表週を再実行して確認してください。
 - **GitHubの現行ブランチとの比較・書き換えは実施していません。** 上書き前に既存リポジトリをバックアップし、新しいレビュー用ブランチで変更内容を確認してください。
