@@ -39,7 +39,6 @@ python scripts/compare_re_run.py REI-CO2 --time-mode rep4
 - 元結果ファイルの一部の `SCENARIO_NAME` にWG/REIの表示違いがあるため、GitHub公開用の新しい実行ではラッパーが適切なケース名を付与します。
 - 元結果とPython・入力からの完全な再計算一致は、PyPSA・HiGHS実行環境で6ケースと代表週を再実行して確認してください。
 - **GitHubの現行ブランチとの比較・書き換えは実施していません。** 上書き前に既存リポジトリをバックアップし、新しいレビュー用ブランチで変更内容を確認してください。
-- 公開前に、コードの利用許諾と元データの再配布権限を確認してください（`LICENSE_REVIEW_REQUIRED.md`）。
 
 既存の `kaetakase/pypsa-japan-capacity-expansion` を置き換える場合は、`docs/GITHUB_REPLACEMENT_STEPS.md` に記したバックアップとレビュー用ブランチの手順を参照してください。既存リポジトリそのものには変更を加えていません。
 
