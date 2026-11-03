@@ -47,3 +47,11 @@ python scripts/compare_re_run.py REI-CO2 --time-mode rep4
 ## 2026-11-03: CO2制約OFFケースの設定修正
 
 元モデルは、`policy_2040.csv` に `co2_intensity_tco2_per_mwh` というキーが存在すると、`use_co2_intensity_constraint=FALSE` であっても制約をONにします。このため、WGとREIでは当該キーを**書き込まない**よう `scripts/run_case.py` を修正し、`input/policy_2040.csv` からも削除しました。公開前に `python scripts/check_case_policy.py` で6ケースを確認してください。参照結果CSVは変更していません。
+
+## ライセンスとデータの利用条件
+
+高瀬香絵が開発した本モデルの独自ソースコードは、MITライセンスのもとで公開しています（詳細は `LICENSE` を参照）。
+
+本モデルの入力データは、公開されている各種データを基礎とし、公益財団法人自然エネルギー財団（Renewable Energy Institute, REI）による加工・推計を加えて作成しています。
+
+自然エネルギー財団が独自に作成した推計データおよび加工成果物の著作権は、同財団に帰属します。これらのデータにはMITライセンスは適用されず、それぞれの利用条件が適用されます。また、第三者が提供した元データの権利は、各権利者に帰属します。
