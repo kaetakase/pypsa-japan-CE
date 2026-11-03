@@ -77,3 +77,9 @@ Create a backup tag/branch for the existing repository and clone it locally. Ext
 All original input CSV checksums (plus ignored alternatives) are in `provenance/original_input_manifest.csv`. All embedded reference result CSV checksums and original source locations are in `reference_results/source_files.csv`.
 
 Detailed safe migration instructions for the earlier GitHub repository: `docs/GITHUB_REPLACEMENT_STEPS.md`.
+
+## License and Data Usage
+
+The original model source code developed by Kae Takase is licensed under the MIT License (see LICENSE).
+
+The input datasets are based on publicly available sources and include additional estimates and processing undertaken by the Renewable Energy Institute (REI). Copyright in REI's original estimates and processing outputs belongs to REI. These datasets are not covered by the MIT License and remain subject to applicable data usage conditions. Rights in third-party source materials remain with their respective rights holders.
