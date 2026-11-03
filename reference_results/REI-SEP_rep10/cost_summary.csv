@@ -1,0 +1,22 @@
+category,value,unit,note
+generator_investment_cost,6034187689991.561,JPY,Annualized investment cost for generators.
+storage_investment_cost,222676748051.98306,JPY,Annualized investment cost for storage units.
+link_investment_cost,7927526043.760944,JPY,Annualized investment cost for links such as HVDC.
+line_investment_cost,0.0,JPY,Annualized investment cost for AC lines.
+total_investment_cost,6264791964087.305,JPY,"Sum of generator, storage, link, and line investment costs."
+generator_variable_cost_including_carbon,5530333908738.411,JPY,Annualized generator dispatch cost. Includes carbon cost if USE_CARBON_PRICE=True.
+storage_variable_cost,0.0,JPY,Annualized storage dispatch cost.
+carbon_cost_included_in_generator_variable_cost,0.0,JPY,Carbon cost component already included in generator_variable_cost_including_carbon. Do not add again.
+total_variable_cost_including_carbon,5530333908738.411,JPY,Sum of generator and storage variable costs. Carbon cost is already included if USE_CARBON_PRICE=True.
+total_system_cost_including_carbon,11795125872825.715,JPY,Total investment plus variable cost. Carbon cost is already included if USE_CARBON_PRICE=True.
+annual_co2_emissions,45824649.785718024,tCO2,Annualized CO2 emissions using snapshot objective weights.
+annual_load_mwh,1145616244.6428573,MWh,Annualized load using snapshot objective weights.
+actual_co2_intensity,0.040000000000003255,tCO2/MWh_load,Numerically equal to kgCO2/kWh_load.
+use_co2_intensity_constraint,True,bool,Whether annual average CO2 intensity constraint is active.
+co2_intensity_target,0.04,tCO2/MWh_load,Target intensity. Numerically equal to kgCO2/kWh_load.
+co2_cap_from_intensity,45824649.78571429,tCO2,Equivalent annual CO2 cap implied by the intensity target.
+co2_cap,,tCO2,Annual CO2 cap. None if USE_CO2_CAP_CONSTRAINT=False.
+use_carbon_price,True,bool,Whether an exogenous carbon price is included in marginal costs.
+carbon_price_jpy_per_tco2,0.0,JPY/tCO2,Exogenous carbon price used in marginal costs.
+use_co2_cap_constraint,False,bool,Whether annual CO2 cap constraint is active.
+pypsa_objective,11795125872825.676,JPY,Objective value reported by PyPSA. Should be close to total_system_cost if cost accounting is consistent.

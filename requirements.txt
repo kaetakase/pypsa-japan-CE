@@ -1,0 +1,8 @@
+# Versions recorded from the prior 2026 run; install/verify HiGHS in your environment.
+pypsa==1.1.2
+linopy==0.6.6
+highspy
+pandas
+numpy
+xarray
+matplotlib

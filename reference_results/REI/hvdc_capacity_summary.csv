@@ -1,0 +1,12 @@
+corridor,existing_forward_capacity_mw,existing_reverse_capacity_mw,existing_capacity_mw_single_link_basis,new_forward_link,new_reverse_link,new_forward_mw,new_reverse_mw,physical_new_capacity_mw,new_capacity_gap_forward_minus_reverse_mw,total_physical_forward_capacity_mw,total_physical_reverse_capacity_mw,total_physical_capacity_mw,forward_capital_cost_jpy_per_mw_year,reverse_capital_cost_jpy_per_mw_year
+line_hokkaido_tohoku,1200.0,792.0,1200.0,line_hokkaido_tohoku_new_forward,line_hokkaido_tohoku_new_reverse,-0.0,-0.0,-0.0,0.0,1200.0,792.0,1200.0,10368550.0,0.0
+line_hokkaido_tokyo,0.0,0.0,0.0,line_hokkaido_tokyo_new_forward,line_hokkaido_tokyo_new_reverse,-0.0,-0.0,-0.0,0.0,0.0,0.0,0.0,32446785.0,0.0
+line_tohoku_tokyo,8300.0,0.0,8300.0,line_tohoku_tokyo_new_forward,line_tohoku_tokyo_new_reverse,1454.0560535753666,1454.0560535753666,1454.0560535753666,0.0,9754.056053575367,1454.0560535753666,9754.056053575367,1457609.0,0.0
+line_tokyo_chubu,3000.0,3419.9999999999995,3000.0,line_tokyo_chubu_new_forward,line_tokyo_chubu_new_reverse,3723.0512123795374,3723.0512123795374,3723.0512123795374,0.0,6723.051212379538,7143.051212379537,6723.051212379538,8912050.0,0.0
+line_chubu_hokuriku,3000.0,3000.0,3000.0,line_chubu_hokuriku_new_forward,line_chubu_hokuriku_new_reverse,2525.9301842727214,2525.9301842727214,2525.9301842727214,0.0,5525.930184272722,5525.930184272722,5525.930184272722,3244679.0,0.0
+line_hokuriku_kansai,3000.0,2580.0,3000.0,line_hokuriku_kansai_new_forward,line_hokuriku_kansai_new_reverse,-0.0,-0.0,-0.0,0.0,3000.0,2580.0,3000.0,3244679.0,0.0
+line_chubu_kansai,3000.0,6779.999999999999,3000.0,line_chubu_kansai_new_forward,line_chubu_kansai_new_reverse,6412.366050359325,6412.366050359325,6412.366050359325,0.0,9412.366050359324,13192.366050359324,9412.366050359324,850827.0,0.0
+line_kansai_chugoku,2561.0,4814.679999999999,2561.0,line_kansai_chugoku_new_forward,line_kansai_chugoku_new_reverse,-0.0,-0.0,-0.0,0.0,2561.0,4814.679999999999,2561.0,2595743.0,0.0
+line_kansai_shikoku,1.0,699.0,1.0,line_kansai_shikoku_new_forward,line_kansai_shikoku_new_reverse,793.8105712694463,793.8105712694463,793.8105712694463,0.0,794.8105712694463,1492.8105712694464,794.8105712694463,2595743.0,0.0
+line_chugoku_shikoku,635.0,1517.65,635.0,line_chugoku_shikoku_new_forward,line_chugoku_shikoku_new_reverse,-0.0,-0.0,-0.0,0.0,635.0,1517.65,635.0,2595743.0,0.0
+line_chugoku_kyushu,288.0,3121.92,288.0,line_chugoku_kyushu_new_forward,line_chugoku_kyushu_new_reverse,-0.0,-0.0,-0.0,0.0,288.0,3121.92,288.0,19087362.0,0.0

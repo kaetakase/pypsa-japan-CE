@@ -1,0 +1,26 @@
+representative_period,storage_unit,start_snapshot,end_snapshot,start_soc_mwh,end_soc_mwh,end_minus_start_mwh,max_abs_boundary_soc_mwh
+full_year,battery_existing_Hokkaido,2040-04-01,2041-03-31 23:00:00,57.949999999999996,-0.0,-57.949999999999996,57.949999999999996
+full_year,battery_new_Hokkaido,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0
+full_year,phs_existing_Hokkaido,2040-04-01,2041-03-31 23:00:00,267.1334464708804,-0.0,-267.1334464708804,267.1334464708804
+full_year,battery_existing_Tohoku,2040-04-01,2041-03-31 23:00:00,58.9,-0.0,-58.9,58.9
+full_year,battery_new_Tohoku,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0
+full_year,phs_existing_Tohoku,2040-04-01,2041-03-31 23:00:00,403.2,-0.0,-403.2,403.2
+full_year,battery_existing_Tokyo,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0
+full_year,battery_new_Tokyo,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0
+full_year,phs_existing_Tokyo,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0
+full_year,battery_existing_Chubu,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0
+full_year,battery_new_Chubu,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0
+full_year,phs_existing_Chubu,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0
+full_year,battery_new_Hokuriku,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0
+full_year,phs_existing_Hokuriku,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0
+full_year,battery_existing_Kansai,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0
+full_year,battery_new_Kansai,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0
+full_year,phs_existing_Kansai,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0
+full_year,battery_existing_Chugoku,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0
+full_year,battery_new_Chugoku,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0
+full_year,phs_existing_Chugoku,2040-04-01,2041-03-31 23:00:00,10648.782804548326,10648.782804548326,0.0,10648.782804548326
+full_year,battery_new_Shikoku,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0
+full_year,phs_existing_Shikoku,2040-04-01,2041-03-31 23:00:00,1590.8460951693473,1590.8460951693473,0.0,1590.8460951693473
+full_year,battery_existing_Kyushu,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0
+full_year,battery_new_Kyushu,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0
+full_year,phs_existing_Kyushu,2040-04-01,2041-03-31 23:00:00,-0.0,-0.0,0.0,0.0

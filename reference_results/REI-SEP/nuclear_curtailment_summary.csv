@@ -1,0 +1,6 @@
+name,carrier,bus,capacity_mw,potential_mwh,generation_mwh,nuclear_curtailment_mwh,curtailment_rate,capacity_factor_actual,capacity_factor_available
+nuclear_existing_Hokkaido,nuclear,Hokkaido,912.0,0.0,0.0,0.0,,0.0,0.0
+nuclear_existing_Tokyo,nuclear,Tokyo,2712.0,2712.0,2712.0,0.0,0.0,0.00011415525114155251,0.00011415525114155251
+nuclear_existing_Kansai,nuclear,Kansai,4100.0,30288465.6278212,30288465.6278212,0.0,0.0,0.8433140001063927,0.8433140001063927
+nuclear_existing_Chugoku,nuclear,Chugoku,820.0,1923361.6291794798,1923361.6291794798,0.0,0.0,0.26775832904269403,0.26775832904269403
+nuclear_existing_Kyushu,nuclear,Kyushu,4140.0,30728710.51765002,30728710.51765002,0.0,0.0,0.8473052334295662,0.8473052334295662

@@ -1,0 +1,2 @@
+constraint,raw_dual,shadow_price_jpy_per_tco2,shadow_price_jpy_per_kgco2,shadow_price_thousand_jpy_per_tco2,external_carbon_price_jpy_per_tco2,effective_marginal_co2_cost_jpy_per_tco2,interpretation
+Policy-co2_intensity,-24570.58053481484,24570.58053481484,24.570580534814837,24.570580534814837,0.0,24570.58053481484,Positive shadow_price_jpy_per_tco2 means relaxing this CO2 constraint by 1 tCO2 reduces annual system cost by this many JPY. effective_marginal_co2_cost adds the exogenous carbon price if used.

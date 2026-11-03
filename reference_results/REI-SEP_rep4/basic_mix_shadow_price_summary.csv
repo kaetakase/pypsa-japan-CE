@@ -1,0 +1,12 @@
+constraint,category_token,bound_type,raw_dual,relaxation_value_jpy_per_mwh,annual_load_mwh,value_jpy_per_1pct_load_share,value_billion_jpy_per_1pct_load_share,value_trillion_jpy_per_1pct_load_share,interpretation
+Policy-basic_mix_renewable_lower,renewable,lower,-0.0,-0.0,1150448844.6428573,-0.0,-0.0,-0.0,Positive value means requiring 1 less MWh from this category reduces annual system cost.
+Policy-basic_mix_renewable_upper,renewable,upper,-0.0,0.0,1150448844.6428573,0.0,0.0,0.0,Positive value means allowing 1 additional MWh from this category reduces annual system cost.
+Policy-basic_mix_nuclear_thermal_lower,nuclear_thermal,lower,-0.0,-0.0,1150448844.6428573,-0.0,-0.0,-0.0,Positive value means requiring 1 less MWh from this category reduces annual system cost.
+Policy-basic_mix_nuclear_thermal_upper,nuclear_thermal,upper,-0.0,0.0,1150448844.6428573,0.0,0.0,0.0,Positive value means allowing 1 additional MWh from this category reduces annual system cost.
+Policy-basic_mix_solar_lower,solar,lower,-0.0,-0.0,1150448844.6428573,-0.0,-0.0,-0.0,Positive value means requiring 1 less MWh from this category reduces annual system cost.
+Policy-basic_mix_solar_upper,solar,upper,-6885.271332233081,6885.271332233081,1150448844.6428573,79211524492.20135,79.21152449220135,0.07921152449220135,Positive value means allowing 1 additional MWh from this category reduces annual system cost.
+Policy-basic_mix_wind_lower,wind,lower,-0.0,-0.0,1150448844.6428573,-0.0,-0.0,-0.0,Positive value means requiring 1 less MWh from this category reduces annual system cost.
+Policy-basic_mix_wind_upper,wind,upper,-8577.540374889504,8577.540374889504,1150448844.6428573,98680214141.69092,98.68021414169091,0.09868021414169091,Positive value means allowing 1 additional MWh from this category reduces annual system cost.
+Policy-basic_mix_hydro_upper,hydro,upper,-0.0,0.0,1150448844.6428573,0.0,0.0,0.0,Positive value means allowing 1 additional MWh from this category reduces annual system cost.
+Policy-basic_mix_geothermal_upper,geothermal,upper,-4167.537297160955,4167.537297160955,1150448844.6428573,47945384685.24837,47.94538468524837,0.047945384685248366,Positive value means allowing 1 additional MWh from this category reduces annual system cost.
+Policy-basic_mix_biomass_upper,biomass,upper,-0.0,0.0,1150448844.6428573,0.0,0.0,0.0,Positive value means allowing 1 additional MWh from this category reduces annual system cost.

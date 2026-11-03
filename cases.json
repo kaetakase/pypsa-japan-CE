@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "target_fiscal_year": 2040,
+  "time_mode": "full8760",
+  "unit_system": {
+    "power": "MW",
+    "energy": "MWh",
+    "objective": "JPY/year",
+    "co2": "tCO2"
+  },
+  "solver_expected": "HiGHS",
+  "original_model_file": "src/japan9cewg2.py",
+  "cases": {
+    "WG": {
+      "original_result_folder": "WG_0_MID_8760",
+      "cost_file": "input/technology_cost_2040.csv",
+      "co2_intensity_constraint": false,
+      "co2_intensity_tco2_per_mwh": 0.04,
+      "basic_mix_constraint": false,
+      "carbon_price_jpy_per_tco2": 0,
+      "replicate_original_reference": true
+    },
+    "REI": {
+      "original_result_folder": "REI_0_MID_8760",
+      "cost_file": "scenario_data/technology_cost_REI_2040.csv",
+      "co2_intensity_constraint": false,
+      "co2_intensity_tco2_per_mwh": 0.04,
+      "basic_mix_constraint": false,
+      "carbon_price_jpy_per_tco2": 0,
+      "replicate_original_reference": true
+    },
+    "WG-CO2": {
+      "original_result_folder": "WG_0.04_MID_8760_sp",
+      "cost_file": "input/technology_cost_2040.csv",
+      "co2_intensity_constraint": true,
+      "co2_intensity_tco2_per_mwh": 0.04,
+      "basic_mix_constraint": false,
+      "carbon_price_jpy_per_tco2": 0,
+      "replicate_original_reference": true
+    },
+    "REI-CO2": {
+      "original_result_folder": "REI_0.04_MID_8760_sp",
+      "cost_file": "scenario_data/technology_cost_REI_2040.csv",
+      "co2_intensity_constraint": true,
+      "co2_intensity_tco2_per_mwh": 0.04,
+      "basic_mix_constraint": false,
+      "carbon_price_jpy_per_tco2": 0,
+      "replicate_original_reference": true
+    },
+    "WG-SEP": {
+      "original_result_folder": "WG_0.04_MID_SEP_8760",
+      "cost_file": "input/technology_cost_2040.csv",
+      "co2_intensity_constraint": true,
+      "co2_intensity_tco2_per_mwh": 0.04,
+      "basic_mix_constraint": true,
+      "carbon_price_jpy_per_tco2": 0,
+      "replicate_original_reference": true
+    },
+    "REI-SEP": {
+      "original_result_folder": "REI_0.04_MID_SEP_8760",
+      "cost_file": "scenario_data/technology_cost_REI_2040.csv",
+      "co2_intensity_constraint": true,
+      "co2_intensity_tco2_per_mwh": 0.04,
+      "basic_mix_constraint": true,
+      "carbon_price_jpy_per_tco2": 0,
+      "replicate_original_reference": true
+    }
+  }
+}

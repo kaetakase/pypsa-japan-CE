@@ -1,0 +1,6 @@
+parameter,value
+carbon_price,0
+use_co2_intensity_constraint,TRUE
+CO2_INTENSITY_TCO2_PER_MWH,0.04
+use_basic_mix_constraint,TRUE
+basic_mix_file,basic_mix_2040.csv
