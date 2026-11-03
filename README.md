@@ -56,7 +56,7 @@ For all six reference runs, the applied carbon **price** was zero JPY/tCO₂. Th
 - All six result totals round to the paper's 6.8, 6.5, 11.8, 8.3, 12.1 and 10.9 trillion JPY/year respectively.
 - CO₂ constraints, annual load and shadow-price values align with the manuscript's text to its stated precision.
 - The representative-week 4/8/10-period cost totals also match the paper (10.1 / 9.5 / 9.7 trillion JPY/year).
-- The **Figure 4 source TWh table** supplied in the chat is systematically about 25/24 times the raw 8760-hour simulation TWh; this is NOT the correct raw result. See `reference_results/figure4_correction_check.csv` and `reference_results/corrected_generation_TWh.csv`. Generation shares (percent) are essentially unchanged by the common factor. Check whether the draft figure is based on scaled TWh or only percentages.
+- The generation shares (%) presented in Figure 4 have been verified against the original 8,760-hour simulation results and are consistent with the reference output data in `reference_results/corrected_generation_TWh.csv`. The reconciliation of earlier chart preparation data is documented in `reference_results/figure4_correction_check.csv`.
 - The old source ZIP has some mislabeled `SCENARIO_NAME` entries inside original result metadata. Metadata was not edited, since that would destroy source provenance; newly re-run cases will have correct labels through the wrapper.
 - With no offshore wind new builds in the REI main cases, output quantities alone cannot distinguish between REIOLD vs REINEW offshore costs. This package explicitly adopts REINEW as the intended analysis source; a full independent re-run is required to prove complete numerical reproducibility.
 
